@@ -1,0 +1,286 @@
+/*------通用样式-------*/
+*{
+	margin:0px;
+	padding:0px;
+}
+.clearfix:before,
+.clearfix:after{
+	content:"";
+	display:table;
+	clear:both;
+}
+.warper{
+	width:67.92452830188679%;
+	background: #fff;
+	margin:0 auto;
+}
+
+li{
+	list-style:none;
+}
+a{
+	text-decoration: none;
+}
+.nav li,.banner-img,.banner-text1,.banner-text2,.containt-left,.containt-p1 img,.containt-letter,.containt-text,.containt-btn,.input1 p,.input,.textarea,.footer-text1,.footer-text2,.footer-p1 img,.footer-p1 p{
+	float:left;
+}
+/*------通用样式-------*/
+body{
+	background: #d7dfe2;
+}
+/*------header样式-------*/
+.header-inner{
+	height:91px;
+	background:#fff;
+}
+/*------header样式-------*/
+/*------nav样式-------*/
+.nav-inner{
+	height:42px;
+	background: #ececec;
+	border-top:1px #f9f9f9  solid;
+	border-bottom:1px #f9f9f9  solid;
+}
+.nav{
+	width:435px;
+	margin:0 auto;
+}
+.nav ul{
+	height:16px;
+	margin-top:14px;
+}
+.nav li{
+	font:11px Arial;
+	text-align:center;
+}
+.nav li a{
+	color:#f3ffe8;
+}
+.nav li a:hover{
+	color:#50a842;
+}
+.btn1{
+	width:52px;
+	margin-right:15px;
+}
+.btn2{
+	width:71px;
+	margin-right:19px;
+}
+.btn3{
+	width:61px;
+	margin-right:19px;
+}
+.btn4{
+	width:97px;
+}
+.btn5{
+	width:21px;
+}
+.btn6{
+	width:80px;
+}
+
+/*------nav样式-------*/
+/*------banner样式-------*/
+.banner-inner{
+	background:url(../images/banner_bg_07.gif);
+}
+.banner{
+	margin:1.75rem 0px 0px 1.3125rem;
+}
+.banner-img{
+	width:20%;
+}
+.banner-img img{
+	width:100%;
+}
+.banner-text1{
+	width:39%;
+    margin: 0px 20px;
+}
+.banner-text1 h1{
+	font:21px "Franklin Gothic Medium";
+	color:#fff;
+        margin: 5px 0px 10px 0px;
+}
+.banner-text1 h2{
+	font:12px "Arial";
+	color:#cdf0ad;
+    margin:0;
+}
+.banner-text2{
+	width:29.33333333333333%;
+	margin-top:0.75rem;
+}
+.banner-text2 li{
+	height:1.8125rem;
+	background: #67b35a;
+	border-radius: 2px;
+	margin-bottom:10px;
+}
+.banner-text2 li a{
+	font:12px "Arial";
+	color:#cdf0ad;
+	letter-spacing: -0.4px ;
+	word-spacing: -0.8px;
+	text-align: center;
+	display:block;
+    line-height:190%;
+}
+.banner-text2 li a:hover{
+	font:12px "Arial";
+	color:#84ed70;
+	letter-spacing: -0.4px ;
+	word-spacing: -0.8px;
+	text-align: center;
+}
+.banner-btn{
+	width:37.87878787878788%;
+	height:1.5rem;
+	background: #f79923;
+	border-radius:18px;
+	float:right;
+	font:12px "Arial";
+	color:#84ed70;
+	letter-spacing: -0.4px ;
+	word-spacing: -0.8px;
+	text-align: center;	
+    line-height: 140%;
+}
+/*------banner样式-------*/
+/*------containt样式-------*/
+.containt-inner{
+	height:28.625rem;
+	background-color: #fff;
+}
+.containt{
+    margin: 0.6875rem auto 0.625rem auto
+}
+.containt-left{
+	background: url(../images/containt_left_bg_11.gif);
+	padding-top:0.1875rem;
+	padding-left:1.625rem;
+	padding-bottom:2.8125rem;
+}
+.containt-left h1{
+	font:20px "Franklin Gothic Medium";
+	color:#f7951e;
+	line-height:253.8461538461538%;
+    margin:0;
+}
+.containt-letter{
+	width:78.82352941176471%;
+	margin-left:1.6875rem;
+}
+.containt-letter h2{
+	font:14px "Arial";
+	color:#6fb7e8;
+    margin:0;
+}
+.containt-link{
+	float:right;
+	margin-right:0.6875rem;
+}
+.containt-letter p{
+	font:12px "Arial";
+	color:#696286;
+	line-height:130%;
+}
+.containt-text{
+	font:12px "Arial";
+	color:#f69467;
+	margin-right:0.5rem;
+}
+.containt-right{
+    clear:both;
+    padding-left: 1.625rem;
+}
+.containt-right h1{
+	font:20px "Franklin Gothic Medium";
+	color:#f7951e;
+	line-height:253.8461538461538%;
+    margin:0;
+}
+.containt-right h2{
+	font:20px "Franklin Gothic Medium";
+	color:#f7951e;
+	margin-bottom:1.4375rem;
+}
+form{
+	width:290px;
+}
+.input1{
+	margin-bottom:0.5rem;
+}
+.input1 p{
+	width:60px;
+	font:12px "Arial";
+	color:#59a5bf;
+	text-align:center;
+}
+input{
+	display:block;
+	width:220px;
+	height:20px;
+	background:#dbedf3; 
+	border:1px #ced6ec solid;
+	margin-left:16px;
+}
+textarea{
+	display:block;
+	width:224px;
+	height:84px;
+	background:#dbedf3; 
+	border:1px #ced6ec solid;
+	margin-left:5px;
+} 
+.containt-btn1{
+	float:right;
+	margin-top:0.875rem;
+}
+/*------containt样式-------*/
+/*------footer样式-------*/
+.footer-inner{
+	height:8.5rem;
+	background: url(../images/footer_bg_27.gif);
+    background-size:cover; 
+}
+.footer{
+	font:12px "Arial";
+	color:#fff;
+	padding:0px 10px 0px 10px;
+}
+.footer-text1{
+	width:14.66666666666667%;
+	height:2.125rem;
+	margin-top:1.0625rem;
+}
+.footer-p1 p{
+	font:12px "Arial";
+	color:#2a4857;
+}
+.footer-p1 a{
+	font:12px "Arial";
+	color:#70c031;
+}
+.footer-text2{
+	font:14px "Arial";
+	letter-spacing: 0.8px;
+	margin:2.1875rem 0.75rem auto 4.5rem;
+}
+.footer-text3{
+	margin: 0.6875rem;
+	float:right;
+}
+.A1{
+	margin-right:15px;
+	color:#fff;
+}
+.footer-text3 a{
+	color:#fff;
+}
+.footer-text3 a:hover{
+	color:#50a842;
+}
+/*------footer样式-------*/
