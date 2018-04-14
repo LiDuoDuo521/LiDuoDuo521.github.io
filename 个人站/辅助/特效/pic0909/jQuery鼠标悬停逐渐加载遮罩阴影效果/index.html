@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>jQuery鼠标悬停逐渐加载遮罩阴影效果</title>
+<style>
+*{ margin:0; padding:0; list-style:none;}
+img{ border:0;}
+
+.lanrenzhijia{ width:1020px; height:auto; margin:100px auto; overflow:hidden; padding-bottom:50px;font-family:'Microsoft Yahei';}
+.lanrenzhijia ul li{ width:230px; height:300px; overflow:hidden; float:left; margin:0px 12px; position:relative; text-align:center;}
+.lanrenzhijia ul li img{ width:230px; height:300px; position:absolute; left:0; top:0; z-index:10; background:url(http://www.lanrenzhijia.com/demo/images/loading.gif) no-repeat center center;}
+.lanrenzhijia ul li .mark{ background:url(http://demo.lanrenzhijia.com/2014/pic0909/images/jia.png) no-repeat center 80px #000;opacity:0.7; display:none; width:230px; height:300px; position:absolute; left:0; top:0; z-index:15; text-indent:-3000px; overflow:hidden;filter:alpha(opacity=0.7);}
+.lanrenzhijia ul li .mark2{ width:230px; height:100px; line-height:100px;background:url(http://demo.lanrenzhijia.com/2014/pic0909/images/touming.png) no-repeat center top; position:absolute; left:0; top:200px; color:#fff; font-size:18px; z-index:20;}
+</style>
+</head>
+<body>
+
+<!-- 代码部分begin -->
+<div class="lanrenzhijia">
+  <ul>
+    <li> 
+    	<img src='http://demo.lanrenzhijia.com/2014/pic0909/images/img.jpg'>
+        <a href="http://www.lanrenzhijia.com/service" class="mark">qq在线客服代码</a>
+      	<div class="mark2">qq在线客服代码</div>
+    </li>
+     <li> 
+    	<img src='http://demo.lanrenzhijia.com/2014/pic0909/images/img.jpg'>
+        <a href="http://www.lanrenzhijia.com/nav" class="mark">菜单导航</a>
+      	<div class="mark2">菜单导航</div>
+    </li>
+     <li> 
+    	<img src='http://demo.lanrenzhijia.com/2014/pic0909/images/img.jpg'>
+        <a href="http://www.lanrenzhijia.com/banner" class="mark">焦点图banner</a>
+      	<div class="mark2">焦点图banner</div>
+    </li>
+     <li> 
+    	<img src='http://demo.lanrenzhijia.com/2014/pic0909/images/img.jpg'>
+        <a href="http://www.lanrenzhijia.com/pic" class="mark">图片特效</a>
+      	<div class="mark2">图片特效</div>
+    </li>
+  </ul>
+</div>
+<script src="http://www.lanrenzhijia.com/ajaxjs/jquery.min.js"></script>
+<script>
+$(function(){
+	$('.lanrenzhijia ul li').hover(function(){
+		$('.mark',this).fadeIn();
+	},function(){
+		$('.mark',this).fadeOut();
+	});
+});
+</script>
+<!-- 代码部分end -->
+
+</body>
+</html>

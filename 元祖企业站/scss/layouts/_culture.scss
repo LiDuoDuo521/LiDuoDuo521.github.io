@@ -1,0 +1,74 @@
+.culture-banner{
+    img{
+        width: 100%;
+    }
+}
+.culture-main{
+    margin-top: 5em;
+     h2{
+        font-size:20px;
+        font-weight: bold;
+        text-align: center;
+    }
+    p{
+        display: block;
+        width: 60%;
+        text-align: center;
+        margin:2em auto;
+        line-height: 280%;
+    }
+    .culture-main-pic{
+        width: 40.2%;
+        margin:2em auto;
+        img{
+            width: 100%;
+        }
+    }
+}
+.culture-content{
+    margin-bottom: 10em;
+     h2{
+        font-size:20px;
+        font-weight: bold;
+        text-align: center;
+        color: rgb(128, 100, 162);
+    }
+    p{
+        display: block;
+        width: 60%;
+        text-align: center;
+        margin:2em auto;
+        line-height: 280%;
+    }
+    h3{
+        font-size:16px;
+        text-align: center;
+    }
+    .culture-content-pic{
+        width: 40.3%;
+        margin:2em auto;
+        img{
+            width: 100%;
+        }
+    }
+}
+@media(max-width:480px){
+    .culture-main{
+        p{
+            width: 90%;
+            line-height: 170%;
+        }
+        .culture-main-pic{
+            width: 100%;
+        }
+    }
+    .culture-content{
+        p{
+            width: 90%;
+            line-height: 170%;
+        }
+        .culture-content-pic{
+            width: 100%;
+        }
+    }
+}

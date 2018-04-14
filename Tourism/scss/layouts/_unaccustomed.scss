@@ -1,0 +1,87 @@
+.unaccustomed{
+    margin-top: 5em;
+    h3{
+        text-align: center;
+        font-size: 2em;
+        color: #83BFA6;
+        margin: 0 auto;
+        padding-bottom: 0.5em;
+        width: 20%;
+        border-bottom: 7px double #DEDEDE;
+    }
+    .unaccustomed-grids{
+        .unaccustomed-nav{
+            width: 100%;
+            list-style: none;
+            padding: 3em 0 3em;
+            margin: 0 auto;
+            text-align: center;
+            li{
+                font-size: 0.9em;
+                display: inline-block;
+                text-align: center;
+                list-style: none;
+                outline: none;
+                transition: all 0.3s ease-out;
+                text-transform: uppercase;
+                margin: 0 0.5em 0;
+                a{
+                    min-width:100%;
+                    height: 100%;
+                    display: block;
+                    padding: 10px 25px;
+                    color: #3AA079;
+                    font-size: 0.9em;
+                    cursor: pointer;
+                    text-align: center;
+                    text-transform: uppercase;
+                    :hover,.active{
+                        text-shadow: none;
+                        text-shadow: none;
+                        color: #fff;
+                        background: #3AA079;
+                    }
+                }
+            }
+        }
+        .unaccustomed-main{
+            ul{
+                li{
+                    margin-bottom: 2em;
+                    a{
+                        display: block;
+                        min-width:100%;
+                        height: 100%;
+                        img{
+                            width:100%;
+                            height: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .unaccustomed-pic{
+        margin-top: 10em;
+        img{
+            width: 100%;
+        }
+    }
+}
+@media(max-width:480px){
+    .unaccustomed{
+        h3{
+          width: 50%;  
+        }
+        .unaccustomed-grids{
+            .unaccustomed-nav{
+                li{
+                    margin:0 0.2em;
+                    a{
+                        padding: 10px 10px;
+                    }
+                }
+            }
+        }  
+    }
+}

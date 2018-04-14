@@ -1,0 +1,126 @@
+.about-main{
+    h2{
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 0.2%;
+    }
+    p{
+        text-align: center;
+        margin-top: 0;  
+        color: #999;
+    }
+    .about-main-main{
+        width: 80%;
+        border-bottom:2px solid #999;
+        margin:auto;
+        .about-main-left{
+            height: 660px;
+            float: left;
+            img{
+                width: 80%;
+                height: 100%;    
+            }
+        }
+        .about-main-right{
+            padding: 10% 0;
+            float: left;
+            p{
+                width: 50%;
+                font-size: 18px;
+                display: block;
+                border-bottom:1px dashed #666;
+                padding: 2% 0;
+                span{
+                    font-size: 13px;
+                    color: #999;
+                    display: block;
+                }
+            }
+            p:nth-of-type(1){
+                padding-top: 0;
+            }
+        }
+    }
+}
+.about-content{
+    h2{
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 0.2%;
+    }
+    p{
+        text-align: center;
+        margin-top: 0;  
+        color: #999;
+        font-size: 13px;
+    }
+    .about-content-form{
+        width: 75%;
+        margin:auto;
+        margin-bottom: 4%;
+        .about-content-left{
+            padding-top: 2.5%;
+            span{
+                display: block;
+                background: #f0f0f0;
+                color: #111;
+                border: 1px solid #ccc;
+                padding: 2.5% 0 2.5% 2.5%;
+                font-weight: bold;
+            }
+            span:nth-of-type(2),span:nth-of-type(3){
+                margin-top: 6%;
+            }
+        }
+        .about-content-right{
+            textarea {
+                width: 100%;
+                background: #f5f5f5;
+                color: #111;
+                padding: 1em;
+                font-size: 14px;
+                border: 1px solid #e4e4e4;
+                min-height: 236px;
+                font-weight: 600;
+                margin: 2em 0 0;
+                
+            }
+            textarea::-webkit-input-placeholder{
+                color: #111;
+            }
+            input[type="button"]{
+                color: #fff;
+                letter-spacing: 5px;
+                font-size: 1em;
+                border: none;
+                text-transform: uppercase;
+                width: 100%;
+                font-weight: 600;
+                background: #111;
+                padding: 0.9em;
+                margin-top: 2em;
+            }
+        }
+    }
+}
+@media(max-width:1024px){
+    .about-main{
+        .about-main-main{
+            .about-main-left{
+                height: 550px;
+            }
+            .about-main-right{
+                p {
+                    width: 80%;
+                }
+            }
+        }
+    }  
+    .about-content{
+        .about-content-form{
+            .about-content-left{
+                padding-top: 3.7%;
+            }
+        }
+    } 
+}
